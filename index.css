@@ -1,0 +1,53 @@
+.num {
+    background-color: yellow;
+    border: 1px solid goldenrod;
+    border-radius: 4px; 
+    height: 35px;
+    width: 35px;
+}
+.op {
+    background-color: rgb(61, 61, 250);
+    border: 1px solid blue;
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;
+}
+.eq {
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;    
+}
+/*.none {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px; 
+    height: 35px;
+    width: 35px;
+    cursor: not-allowed;
+}*/
+
+.num:hover {background-color: yellow}
+
+.op:hover {background-color: rgb(61, 61, 250)}
+
+.eq:hover {background-color: green}
+
+.num:active {
+    background-color: yellow;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+
+.op:active {
+    background-color: rgb(61, 61, 250);
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+ }
+
+.eq:active {
+    background-color: green;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}

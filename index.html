@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+      <h1> Calculadora </h1>  
+      <script src = "./index.js"></script>
+      <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <P>         <input type="text" id = "Result" value=""> </P>
+    <p> <input type="button" id="Uno" value="1" class="num" onclick="getDatas('Uno')"> 
+        <input type="button" id="Dos" value="2" class="num" onclick="getDatas('Dos')">
+        <input type="button" id="Tres" value="3" class="num" onclick="getDatas('Tres')">
+        <input type="button" id="Suma" value="+" class="op" onclick="getDatas('Suma')"> 
+    </p>
+    <p> <input type="button" id="Cuatro" value="4" class="num" onclick="getDatas('Cuatro')"> 
+        <input type="button" id="Cinco" value="5" class="num" onclick="getDatas('Cinco')">
+        <input type="button" id="Seis" value="6" class="num" onclick="getDatas('Seis')">
+        <input type="button" id="Resta" value="-" class="op" onclick="getDatas('Resta')"> 
+    </p>
+    <p> <input type="button" id="Siete" value="7" class="num" onclick="getDatas('Siete')"> 
+        <input type="button" id="Ocho" value="8" class="num" onclick="getDatas('Ocho')">
+        <input type="button" id="Nueve" value="9" class="num" onclick="getDatas('Nueve')">
+        <input type="button" id="Multi" value="x" class="op" onclick="getDatas('Multi')"> 
+    </p>
+    <p>
+        <img src='https://sticker.nyc3.cdn.digitaloceanspaces.com/20210842/file_2508674_128x128.webp' width="35"/><!--<input type="button" id="none" Value="" class="none">-->
+        <input type="button" id="Cero" Value="0" class="num" onclick="getDatas('Cero')">
+        <input type="button" id="Div" value="/" class="op" onclick="getDatas('Div')">
+        <input type="button" id="Igual" value="=" class="eq" onclick="calculate()">
+    </p>
+    
+</body>
+</html>
